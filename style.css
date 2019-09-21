@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*==== end reset style====*/
+/*===== general  ========*/
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+li,
+a,
+.btn {
+    display: inline;
+    color: gray;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* =======end general =====*/
+/*============ header======== */
+header {
+    text-align: right;
+    margin: 30px 25px;
+    font-size: 15px;
+}
+header li {
+    margin-right: 15px;
+}
+.apps,
+.account {
+width: 30px;
+height: 30px;
+}
+.account {
+border-radius: 50%;
+}
+/* =========end header========*/
+/*=====  main    ===*/
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+.field {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+input[type="text"] {
+    width: 550px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid gray;
+   padding-left: 20px
+}
+input[type="text"]:hover {
+box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.btn {
+   padding: 10px 20px; 
+   border-radius: 5px;
+   margin-right: 10px;
+   border: 1px solid #f2f2f2;
+   background-color: #f2f2f2;
+   cursor: pointer;
+}
+.btn:hover {
+border: 1px solid gray; 
+color: #5f6368;
+cursor: pointer;
+}
+/* ====== end main =====*/
+/* ======== footer== =====*/
+footer {
+background-color: #f2f2f2;
+}
+p {
+color: gray;
+padding: 10px;
+margin-top: 22%;
+border-top: 1px solid #e4e4e4;;
+border-bottom: 1px solid #e4e4e4;
+font-size: 17px;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+}
+footer li {
+    margin-right: 30px;
+}
